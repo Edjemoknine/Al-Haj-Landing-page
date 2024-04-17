@@ -6,6 +6,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffd700;
+  border-radius: 50px;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
